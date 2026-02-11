@@ -77,7 +77,7 @@ setMessage('')
        
 
         {/* Título */}
-        <h1 className="text-[14px] text-center mb-5 sm:text-5xl font-bold text-cyan-400 uppercase tracking-[0.5rem]">
+        <h1 className="text-2xl text-center mb-5 sm:text-5xl font-bold text-cyan-400 uppercase">
           Contato
           
         </h1>

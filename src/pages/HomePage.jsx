@@ -3,7 +3,6 @@ import Banner from "../components/Banner";
 import Carrosel from "../components/Carrosel";
 import Tecnologias from "../components/TecnologiasSection";
 import Footer from "../components/Footer";
-
 import Formacao from "../components/Formacao";
 import Sobre from "../components/Sobre";
 import BannerCTA from "../components/BannerCTA";

@@ -99,7 +99,7 @@ const Fotos = () => {
           </p>
         </div>
 
-        {/* Masonry Grid */}
+        {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 auto-rows-[350px]">
           {projects.map((project) => (
             <div
@@ -127,11 +127,6 @@ const Fotos = () => {
                     <ExternalLink className="w-4 h-4" />
                   </div>
                 </div>
-              </div>
-
-              {/* Subtle gradient border effect on hover */}
-              <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                <div className="absolute inset-0 rounded-xl shadow-lg shadow-indigo-500/20"></div>
               </div>
             </div>
           ))}

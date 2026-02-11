@@ -3,22 +3,9 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 
 export default function contatoCTA() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#16275c40] to-[#002b5880]  py-24 px-6">
-      {/* Efeitos de luz de fundo */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-1/2 -right-1/4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div
-          className="absolute -bottom-1/2 -left-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"
-          style={{ animationDelay: "1s" }}
-        ></div>
-        <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-indigo-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"
-          style={{ animationDelay: "2s" }}
-        ></div>
-      </div>
+    <section className="relative overflow-hidden py-24 px-6">
 
-      {/* Grid pattern overlay */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
+    
 
       {/* Floating elements */}
       <div className="absolute top-20 left-10 w-2 h-2 bg-cyan-400 rounded-full animate-ping"></div>
@@ -32,25 +19,25 @@ export default function contatoCTA() {
       <div className="relative max-w-4xl mx-auto text-center">
        
 
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight uppercase">
           Transforme Sua{" "}
-          <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent uppercase">
             Ideia em Realidade
           </span>
         </h2>
 
         <p className="text-lg md:text-xl text-blue-100/80 mb-10 max-w-2xl mx-auto">
-          Estou pronto para ajudar a criar soluções
+          Estou pronta para ajudar a criar soluções
           incríveis. Entre em contato e vamos começar!
         </p>
 
         {/* Botão animado */}
         <div className="relative inline-block group">
-          {/* Glow effect */}
-          <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
+          {/*  efeito glow (hover botão)*/}
+          <div className="absolute -inset-1 bg-linear-to-r from-cyan-400 via-blue-400 to-indigo-400 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
 
           <Link to="/contato">
-            <button className="relative px-8 py-4 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 text-white font-semibold rounded-lg shadow-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center gap-3">
+            <button className="relative px-8 py-4 bg-linear-to-r from-cyan-500 via-blue-500 to-indigo-500 text-white font-semibold rounded-lg shadow-xl transform transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center gap-3">
             <svg
               className="w-5 h-5 transform group-hover:rotate-12 transition-transform duration-300"
               fill="none"
@@ -110,17 +97,6 @@ export default function contatoCTA() {
           <span className="opacity-60">{" }"}</span>
         </div>
       </div>
-
-      <style jsx>{`
-        .bg-grid-pattern {
-          background-image: linear-gradient(
-              rgba(34, 211, 238, 0.1) 1px,
-              transparent 1px
-            ),
-            linear-gradient(90deg, rgba(34, 211, 238, 0.1) 1px, transparent 1px);
-          background-size: 50px 50px;
-        }
-      `}</style>
     </section>
   );
 }

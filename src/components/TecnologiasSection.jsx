@@ -223,7 +223,7 @@ export default function TecnologiasSection() {
       id="tecnologias"
       className="min-h-screen flex flex-col items-center justify-center  py-16 px-4"
     >
-      <h1 className="text-2xl text-center font-bold mb-[100px] lg:mb-16 text-white uppercase tracking-[0.5rem]">
+      <h1 className="text-2xl text-center font-bold mb-25 lg:mb-16 text-white uppercase tracking-[0.5rem]">
         Tecnologias
       </h1>
 
@@ -256,13 +256,6 @@ export default function TecnologiasSection() {
 
         {/* Container do carrossel com fade masks */}
         <div className="relative h-[400px] overflow-hidden">
-          {/* Fade mask superior */}
-          {/* <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-black to-transparent z-10 pointer-events-none" /> */}
-          
-          {/* Fade mask inferior */}
-          {/* <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none" /> */}
-
-          {/* Container com scroll */}
           <div
             ref={containerRef}
             className="flex flex-col gap-4 transition-transform duration-500 ease-out px-2"
@@ -273,7 +266,7 @@ export default function TecnologiasSection() {
             {technologies.map((tech, index) => (
               <div
                 key={index}
-                className="border border-[#002b5860] rounded-lg flex items-center justify-around p-6 h-[120px] flex-shrink-0 transition-all duration-300 hover:border-white hover:shadow-[0_0_30px_#4b6aa1]"
+                className="border border-[#002b5860] rounded-lg flex items-center justify-around p-6 h-[120px] shrink-0 transition-all duration-300 hover:border-white hover:shadow-[0_0_30px_#4b6aa1]"
               >
                 <div className="w-[50px] text-4xl flex items-center justify-center">
                   {tech.icon}

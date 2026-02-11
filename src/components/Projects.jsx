@@ -176,7 +176,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className="min-h-screen flex flex-column items-center" >
+    <div className="min-h-screen flex flex-column items-center mt-25 md:mt-0" >
       <div className="max-w-7xl mx-auto">
         {/* Cabeçalho da Seção */}
         <div className="text-center">
@@ -205,36 +205,6 @@ const Projects = () => {
         />
       )}
       
-      {/* Estilos de Animação */}
-      <style>{`
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-        
-        @keyframes slideUp {
-          from {
-            opacity: 0;
-            transform: translateY(40px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        
-        .animate-fadeIn {
-          animation: fadeIn 0.3s ease-out;
-        }
-        
-        .animate-slideUp {
-          animation: slideUp 0.4s ease-out;
-        }
-      `}</style>
     </div>
   );
 };

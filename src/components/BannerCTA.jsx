@@ -3,16 +3,8 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 
 export default function bannerCTA() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#16275c40] to-[#002b5880] py-24 px-6">
-      {/* Efeitos de luz de fundo */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-1/2 -left-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-        <div className="absolute -bottom-1/2 -right-1/4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse" style={{animationDelay: '2s'}}></div>
-      </div>
-
-      {/* Grid pattern overlay */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
+    <section className="relative overflow-hidden py-24 px-6">
+     
 
       {/* Conteúdo */}
       <div className="relative max-w-4xl mx-auto text-center">
@@ -22,7 +14,7 @@ export default function bannerCTA() {
           </span>
         </div>
         
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-semiBold mt-10 mb-5 text-[#fff] uppercase tracking-[0.5rem]">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mt-10 mb-5 text-white uppercase">
           Veja Meus <span className="text-cyan-500">Projetos</span>
         </h2>
         
