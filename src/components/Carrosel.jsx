@@ -18,9 +18,9 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 function Carrossel() {
   return <>
-  <div className="h-[100dvh] flex flex-column justify-center items-center" id="desenhos">
+  <div className="h-dvh flex flex-column justify-center items-center" id="desenhos">
   <div className=" w-full max-w-7xl mx-auto px-4 py-8 text-[10px]">
-      <h1 className="text-[24px] text-center font-bold mb-8 text-[#fff]  font-semibold uppercase tracking-[0.5rem] ">
+      <h1 className="text-[24px] text-center font-bold mb-8 text-white uppercase tracking-[0.5rem] ">
         Meus desenhos
       </h1>
 

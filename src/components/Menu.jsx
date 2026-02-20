@@ -35,7 +35,7 @@ function Menu() {
   return (
     <>
       {/* Desktop Menu */}
-      <div className="hidden lg:flex items-center justify-between  p-6">
+      <div className="hidden lg:flex items-center justify-between p-6">
         <ul className="flex items-center gap-8 text-white/60 uppercase font-semibold text-[11px] hover:*:text-white transition-colors">
           {menuItems.map((item, index) => (
             <li
@@ -75,7 +75,7 @@ function Menu() {
       </div>
 
       {/* Cabecalho mobile*/}
-      <div className="lg:hidden flex justify-end">
+      <div className="lg:hidden flex justify-end m-2">
         <button
           onClick={() => setIsOpen(true)}
           className="p-2 rounded-lg hover:bg-white/10 transition-colors duration-300"
