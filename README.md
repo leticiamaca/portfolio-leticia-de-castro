@@ -1,4 +1,5 @@
 # 🌸 Portfólio - Letícia de Castro
+<img src="./sobre.jpeg"></img>
 ---
 Hello! Welcome to my personal portfolio built with **React.js**!  
 The main goal of this project is to showcase my **front-end development skills**, focusing on **modern JavaScript**, **component-based structure**, and **clean coding practices**.  
@@ -13,6 +14,8 @@ Here you can learn more about me, my projects, and the technologies I work with.
 - Vite ou Create React App
 - Swiper slide
 
+<img src="./desenhos.jpeg"></img>
+
 ## 📸 Features
 
 - Home page with personal introduction
@@ -21,22 +24,8 @@ Here you can learn more about me, my projects, and the technologies I work with.
 - Contact form
 - Fully responsive layout
 
-  ## 💻 How to Run Locally
+  <img src="./projetos.jpeg"></img>
 
-```bash
-# Clone this repository
-git clone https://github.com/your-username/repository-name
+## Deploy
+🔗 [Leticia de Castro](https://portfolioleticiadecastro.netlify.app)
 
-# Navigate to the project folder
-cd repository-name
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
-```
-
-Thanks for your visiting :)
->>>>>>> 79b6b066b451d2c423fb19a89642ab2ecf72c945
