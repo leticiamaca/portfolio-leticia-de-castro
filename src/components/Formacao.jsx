@@ -4,8 +4,8 @@ import { Briefcase, GraduationCap } from 'lucide-react';
 const Formacao = () => {
   const experiences = [
     {
-      period: "Fev/2026 - Dez/2027",
-      title: "ESTAGIÁRIA EM TI",
+      period: "Fev/2026 - Atual",
+      title: "ESTAGIÁRIA EM SUPORTE TI",
       company: "JOG Engenharia de Andaimes"
     },
     {
@@ -32,9 +32,9 @@ const Formacao = () => {
       institution: "SENAI"
     },
     {
-      period: "2019 - atualmente",
+      period: "2019 - Atualmente ",
       title: "INGLÊS",
-      institution: "Wizard (com mentores particulares)"
+      institution: "Wizard, atualmente com tutores particulares"
     }
   ];
 

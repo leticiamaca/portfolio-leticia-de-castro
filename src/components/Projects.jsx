@@ -2,7 +2,9 @@ import react, {useState, useEffect} from "react";
 
 
 //importando imagens dos projetos
-import Faiup from "../assets/img/faiup.png"
+import CastroMidia from "../assets/img/castromidia.png"
+import ConhecendoLeticia from "../assets/img/conhecendoleticia.png"
+import RocketManager from "../assets/img/rocketmanager.png"
 import OfficeRun from "../assets/img/office.png"
 import Magitech from "../assets/img/magitech.png"
 
@@ -27,28 +29,28 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "FAIUP",
-    shortDesc: "Landing page para uma empresa de gamificação",
-    fullDesc: "Projeto de landing page responsiva criado como parte de uma empresa fictícia voltada para soluções em gamificação. O site foi desenvolvido com foco em design moderno, responsividade e identidade visual única. Este projeto foi desenvolvido com HTML, CSS e JavaScript, apresentando uma proposta de empresa fictícia chamada FaiUp, voltada para gamificação em ambientes educacionais e corporativos. A identidade visual, nome, logotipo e ilustrações foram todas criadas por mim, incluindo a arte autoral que aparece no site.",
-    image: Faiup,
-    link: "https://leticiamaca.github.io/faiup/"
+    title: "Landinpage CastroMídia",
+    shortDesc: "Landing page para uma empresa de socialmedia",
+    fullDesc: "Uma landing page moderna e responsiva desenvolvida para apresentar os serviços de social media da Castro Mídia, com foco em conversão, identidade visual e experiência do usuário. A proposta do projeto foi criar uma presença digital profissional, utilizando estratégias de Call To Action (CTA), design alinhado ao manual da marca e uma navegação intuitiva para fortalecer a autoridade da marca no digital.",
+    image: CastroMidia,
+    link: "https://github.com/leticiamaca/castromidia"
   },
-  // {
-  //   id: 4,
-  //   title: "Portfolio Website",
-  //   shortDesc: "Site portfólio com animações avançadas",
-  //   fullDesc: "Website portfólio responsivo com animações sofisticadas, dark mode, sistema de blog integrado e formulário de contato. Desenvolvido com Next.js e Framer Motion.",
-  //   image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
-  //   link: "https://exemplo.com/portfolio"
-  // },
-  // {
-  //   id: 5,
-  //   title: "Social Network",
-  //   shortDesc: "Rede social para desenvolvedores",
-  //   fullDesc: "Plataforma social focada em desenvolvedores com feed de posts, sistema de comentários e likes, perfis personalizáveis e chat em tempo real usando WebSockets.",
-  //   image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=600&fit=crop",
-  //   link: "https://exemplo.com/devnetwork"
-  // },
+  {
+    id: 4,
+    title: "Portfolio Gamificado - Conhecendo Leticia",
+    shortDesc: "Portfolio em formato de gamificação.",
+    fullDesc: "Conhecendo Leticia é uma experiência interativa 2D que transforma o tradicional portfólio web em um jogo de plataforma pixel art. Nascido da vontade de fazer algo genuinamente diferente, porque, afinal, ter um portfólio na web hoje em dia já não é mais diferencial este projeto convida o visitante a jogar para me conhecer",
+    image: ConhecendoLeticia,
+    link: "https://github.com/leticiamaca/portfolio-gamificado-2d"
+  },
+  {
+    id: 5,
+    title: "RocketManager",
+    shortDesc: "Plataforma de gestão de projetos",
+    fullDesc: "O Rocket Manager é uma aplicação fullstack que permite o gerenciamento de projetos, equipes e colaboradores. Cada tipo de usuário tem permissões específicas dentro do sistema, garantindo segurança e organização no fluxo de trabalho.",
+    image: RocketManager,
+    link: "https://github.com/orgs/manager-system-java/repositories"
+  },
   // {
   //   id: 6,
   //   title: "Mobile Banking App",
@@ -180,7 +182,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         {/* Cabeçalho da Seção */}
         <div className="text-center">
-          <h1 className="text-[24px] text-center font-bold mb-17 text-[#fff]  font-semibold uppercase tracking-[0.5rem]">
+          <h1 className="text-[24px] text-center font-bold mb-17 text-white uppercase tracking-[0.5rem]">
             PROJETOS
           </h1>
         </div>
