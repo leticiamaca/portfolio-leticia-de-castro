@@ -27,5 +27,5 @@ Here you can learn more about me, my projects, and the technologies I work with.
   <img src="./projetos.jpeg"></img>
 
 ## Deploy
-🔗 [Leticia de Castro](https://portfolioleticiadecastro.netlify.app/projetos)
+🔗 [Leticia de Castro](https://portfolioleticiadecastro.netlify.app)
 
