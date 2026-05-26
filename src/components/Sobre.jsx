@@ -34,10 +34,10 @@ const Sobre = () => {
             </p>
 
             {/* Texto descritivo adicional */}
-            <p className="text-xl mb-8 text-white/40  font-semibold text-left">
+            <p className="text-lg md:text-xl text-blue-100/80 mb-10 max-w-2xl">
               Sou estudante de Sistemas da Informação, com foco em
               desenvolvimento fullstack e criação de projetos digitais. Tenho
-              experiência com JavaScript, React, HTML, CSS, Python WordPress
+              experiência com JavaScript, React, HTML, CSS, TypeScript, 
               desenvolvimento de jogos na Unity entre outras tecnologias, sempre
               buscando aprender na prática e evoluir tecnicamente. Também atuo
               com design criativo, desde o esboço até o resultado final, unindo
